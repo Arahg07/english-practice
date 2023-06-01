@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+        <link rel = "stylesheet" href="style.css" type="text/css">
+        <title>Numeros - inglés</title>
+        
+    </head>
+    <body>
+        <header>
+            <div>
+                <p class="header">Practice</p>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <p class="et-number">what is this number?</p>
+                <p class="et-time">what time is it?</p>
+            </div>
+            <div>
+                <button onclick="number()" type="submit" class="btn-number">Number</button>
+                <button onclick="time()" type="submit" class="btn-time">Time</button>
+            </div>
+            <div class="show-numer">
+                <input readonly id="number" class="def-number">
+
+                <input readonly id="time" class="def-time">
+            </div>
+            <div class="response">
+                <p class="et-number">Number</p>
+                <input readonly id="response-number" class="response-number">
+                <p class="et-time">Time</p>
+                <input readonly id="response-time" class="response-time">  
+                <input readonly id="response-otrtime" class="response-otrtime"> 
+            </div>
+
+            <div>
+                <button onclick="rs_number()" type="submit" class="btn-rs-number">Answer number</button>
+                <button onclick="rs_time()" type="submit" class="btn-rs-time">Answer time</button>
+            </div>
+
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; Copyright AraHg - 2023</p>
+        </footer>
+
+        <script type="text/javascript" src="function.js"></script>
+        
+    </body>
+</html>
+

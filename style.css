@@ -1,0 +1,97 @@
+body{
+    background: #B7FFCE;
+}
+
+.header{
+    
+    font-size: 30px;
+    color: #c9b610;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.et-number , .et-time{
+    font-size: 24px;
+    color: #E36A4B;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 15px;
+    width: 50;
+    border-radius: 25px;
+
+}
+
+.btn-number, .btn-time{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 25px;
+
+}
+
+main div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.def-number, .def-time {
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    padding-left: 15px;
+    
+
+}
+
+show-number{
+    display: flex;
+    
+
+}
+
+.response-number, .response-time, .response-otrtime{
+
+    height: 30px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: auto;
+}
+.response{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-rs-number, .btn-rs-time{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 25px;
+
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    
+    
+}
